@@ -30,7 +30,7 @@ const CHORD_DATA = [
   ['1P 3M 6m 7M', '', 'maj7b13', 'maj7b6 M7b6', 'major seventh b6'],
   ['1P 3m 5P', '', 'm min', 'mi -', 'minor'],
   ['1P 3m 5P 7m', '', 'm7 min7', 'mi7 -7', 'minor seventh'],
-  ['1P 3m 5P 7M', '', 'mmaj7 mM7', 'm/ma7 m/maj7 m/M7 -Δ7 mΔ', 'minor/major seventh'],
+  ['1P 3m 5P 7M', '', 'mmaj7 mM7', 'm/ma7 m/maj7 mM7 mMaj7 m/M7 -Δ7 mΔ -^7 -maj7', 'minor/major seventh'],
   ['1P 3m 5P 6M', '5P', 'm6', '', 'minor sixth'],
   ['1P 3m 5P 7m 9M', '3m 5P', 'm9', '', 'minor ninth'],
   ['1P 3m 5P 7m 9M 11P', '5P', 'm11', '', 'minor eleventh'],
@@ -114,7 +114,6 @@ const CHORD_DATA = [
   ['1P 3m 5d 7M', '', '', 'oM7 dimmaj7 dim+7', ''],
   ['1P 3m 5d 7m', '', 'm7b5', 'h7 _7b5', 'half-diminished'],
   ['1P 3m 6m 7M', '', '', 'mb6maj7 mb6M7 mmaj7#5', ''],
-  ['1P 3m 6m 7m', '', 'm7#5', '', ''],
   ['1P 3m 6m 7m 9M', '', '', 'm9#5 m7maj9#5 maj9#5', ''],
   ['1P 3m 6m 7m 9M 11P', '', '', 'm11A +5m7maj11', ''],
   ['1P 3m 6m 9m', '', '', 'mb6b9 +5b9', ''],
@@ -132,6 +131,9 @@ const CHORD_DATA = [
   ['1P 5P 7m 9m 11P', '', '11b9', '', ''],
   ['1P 2M 5P 7M', '', 'maj7sus2', 'Δsus2 ma7sus2 M7sus2 Maj7sus2', 'major seventh'],
   ['1P 3M 4P 5P', '', 'add4 add11', '', ''],
+
+  ['1P 3M 5P 6M 9M', '5P', '6add9 6/9 69', 'M69', 'sixth added ninth'],
+  ['1P 3m 5A 7m', '', 'm7#5 m7+', 'm7aug', 'minor seventh augmented fifth'],
 ];
 
 module.exports = {
