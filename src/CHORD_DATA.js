@@ -20,7 +20,7 @@ function parseData(data) {
  * Entries with empty `symbols`: no symbol recognized by UG was found, but that does not mean one exists.
  **/
 const CHORD_DATA = [
-  ['1P 3M 5P', '', '', '', 'major'],
+  ['1P 3M 5P', '', '', 'maj M', 'major'],
   ['1P 3M 5P 7M', '', 'maj7 ma7 M7 Maj7', 'Δ', 'major seventh'],
   ['1P 3M 5P 7M 9M', '', 'maj9', 'Δ9', 'major ninth'],
   ['1P 3M 5P 7M 9M 13M', '', 'maj13', 'Maj13', 'major thirteenth'],
